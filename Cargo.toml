@@ -1,0 +1,17 @@
+[package]
+name = "hello-filter"
+version = "0.1.0"
+authors = ["craig <cbrookes@redhat.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+log = "0.4.8"
+proxy-wasm = "0.1.4" # The Rust SDK for proxy-wasm
